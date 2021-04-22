@@ -27,7 +27,6 @@ const ReviewInsert = (props) => {
     if (inputTitle.trim().length <= 0) {
       return;
     }
-    console.log(inputStar)
     setter([
       ...value,
       {
